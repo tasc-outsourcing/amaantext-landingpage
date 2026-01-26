@@ -1,19 +1,14 @@
 #!/bin/bash
 set -e
 
-# Create .env file if it doesn't exist
-if [ ! -f .env ]; then
-    cp .env.example .env 2>/dev/null || echo "APP_ENV=production
+# Create minimal .env file
+echo "APP_ENV=production
 APP_DEBUG=false
-APP_KEY=
+APP_KEY=base64:tempkeywillbereplaced
 APP_URL=https://your-site.netlify.app" > .env
-fi
 
-# Install Composer dependencies
+# Install Composer dependencies (skip scripts to avoid artisan commands)
 composer install --no-dev --optimize-autoloader --no-interaction --no-scripts
-
-# Run package discovery manually if needed
-php artisan package:discover --ansi || true
 
 # Install npm dependencies
 npm install

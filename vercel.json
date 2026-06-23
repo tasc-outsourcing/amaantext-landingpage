@@ -1,22 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "composer install --no-dev --optimize-autoloader --no-interaction --no-scripts && npm install && npm run build",
-  "outputDirectory": "public",
-  "installCommand": "composer install --no-dev --optimize-autoloader --no-interaction --no-scripts && npm install",
-  "framework": null,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "public/index.php"
-    }
-  ],
-  "functions": {
-    "public/index.php": {
-      "runtime": "php8.2"
-    }
-  },
-  "env": {
-    "APP_ENV": "production",
-    "APP_DEBUG": "false"
-  }
+  "buildCommand": "echo Static site deploy",
+  "installCommand": "echo Skip install",
+  "outputDirectory": ".",
+  "cleanUrls": true
 }

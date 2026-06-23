@@ -2,7 +2,7 @@
     <div class="container mx-auto max-w-6xl">
         <div class="text-center mb-16">
             <h2 class="text-[54px] font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#00bfff] to-[#56db46] mb-6 font-['Poppins',sans-serif] leading-tight">
-                See AmaanText AI in Action
+                See Tasctranslate.ai in Action
             </h2>
             <p class="text-[19px] text-slate-600 max-w-3xl mx-auto font-['Poppins',sans-serif]">
                 Watch how enterprises translate complex Arabic and English documents with accuracy, security, and preserved formatting.
@@ -16,7 +16,7 @@
                     <iframe
                         class="absolute top-0 left-0 w-full h-full"
                         src="https://www.youtube.com/embed/552aT1LhvVM"
-                        title="AmaanText AI Demo"
+                        title="Tasctranslate.ai Demo"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
                     ></iframe>

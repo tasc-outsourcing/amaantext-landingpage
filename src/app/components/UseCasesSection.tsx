@@ -60,7 +60,7 @@ export function UseCasesSection() {
             <span className="text-[#ffe102]">Afford Translation Risks</span>
           </h2>
           <p className="text-[20px] text-slate-600 max-w-3xl mx-auto font-['Poppins',sans-serif] mb-8">
-            See which roles across your organization benefit most from AmaanText AI
+            See which roles across your organization benefit most from Tasctranslate.ai
           </p>
           
           {/* Role Pills */}
@@ -140,7 +140,7 @@ export function UseCasesSection() {
                       </svg>
                     </div>
                     <div>
-                      <div className="text-[12px] font-bold text-white/70 uppercase tracking-wider mb-1">AmaanText AI Solution</div>
+                      <div className="text-[12px] font-bold text-white/70 uppercase tracking-wider mb-1">Tasctranslate.ai Solution</div>
                       <div className="text-[15px] font-bold text-white font-['Poppins',sans-serif]">
                         {item.solution}
                       </div>
@@ -173,7 +173,7 @@ export function UseCasesSection() {
             Does Your Team Handle These Documents?
           </h3>
           <p className="text-[18px] text-white/80 mb-8 max-w-3xl mx-auto">
-            Run a private pilot with your actual contracts, policies, or presentations to see AmaanText AI in action.
+            Run a private pilot with your actual contracts, policies, or presentations to see Tasctranslate.ai in action.
           </p>
           <button className="px-10 py-5 rounded-full bg-[#ffe102] text-[#005f83] text-[18px] font-bold hover:shadow-[0_8px_40px_rgba(255,225,2,0.4)] hover:scale-105 transition-all inline-flex items-center gap-3">
             Request Your Private Pilot

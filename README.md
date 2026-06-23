@@ -1,7 +1,7 @@
 
-  # AmaanText AI Landing Page
+  # TASC Translate Landing Page
 
-  This is a code bundle for AmaanText AI Landing Page. The original project is available at https://www.figma.com/design/6JsPisBczgeHx6p9NnOmzM/AmaanText-AI-Landing-Page.
+  This is a code bundle for TASC Translate Landing Page. The original project is available at https://www.figma.com/design/6JsPisBczgeHx6p9NnOmzM/TASC-Translate-Landing-Page.
 
   ## Running the code
 

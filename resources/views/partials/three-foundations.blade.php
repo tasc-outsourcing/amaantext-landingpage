@@ -6,7 +6,7 @@
                 The Three Foundations of<br />Enterprise Translation Control
             </h2>
             <p class="text-[19px] text-slate-600 max-w-3xl mx-auto font-['Poppins',sans-serif]">
-                AmaanText AI is built on three non-negotiable principles required by regulated enterprises in the GCC.
+                Tasctranslate.ai is built on three non-negotiable principles required by regulated enterprises in the GCC.
             </p>
         </div>
 

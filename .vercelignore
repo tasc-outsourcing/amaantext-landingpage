@@ -14,6 +14,4 @@ yarn-error.log
 !README.md
 composer.lock
 package-lock.json
-src/
 scripts/
-

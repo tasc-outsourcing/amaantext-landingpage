@@ -1,4 +1,4 @@
-# AmaanText AI Landing Page - Laravel Version
+# TASC Translate Landing Page - Laravel Version
 
 This project has been converted from React/TypeScript to Laravel with Blade templates.
 

@@ -14,7 +14,7 @@
             <div class="container mx-auto px-8 lg:px-16 py-4">
                 <nav class="flex items-center justify-between">
                     <div class="h-16 w-48">
-                        <img alt="AmaanText AI Logo" class="h-full w-full object-contain" src="{{ asset('images/a2ec735a587b0c6790f0022759483bc195d10feb.png') }}" />
+                        <img alt="Tasctranslate.ai Logo" class="h-full w-full object-contain" src="{{ asset('images/tasctranslate-logo.png') }}" />
                     </div>
                     
                     <div class="hidden lg:flex items-center gap-10 text-black/90">
@@ -36,9 +36,14 @@
                         </a>
                     </div>
                     
-                    <button class="px-7 py-3.5 rounded-full bg-gradient-to-r from-[#00bfff] to-[#56db46] text-white font-medium text-[15px] hover:shadow-[0_8px_30px_rgba(0,191,255,0.3)] hover:scale-105 transition-all">
-                        Request a Private Pilot
-                    </button>
+                    <div class="flex items-center gap-3">
+                        <a href="https://app.tasctranslate.ai/Login" class="px-5 py-3 rounded-full border border-[#005f83]/20 text-[#005f83] font-medium text-[15px] hover:border-[#005f83]/40 hover:bg-[#005f83]/5 transition-all">
+                            Login
+                        </a>
+                        <button class="px-7 py-3.5 rounded-full bg-gradient-to-r from-[#00bfff] to-[#56db46] text-white font-medium text-[15px] hover:shadow-[0_8px_30px_rgba(0,191,255,0.3)] hover:scale-105 transition-all">
+                            Request a Private Pilot
+                        </button>
+                    </div>
                 </nav>
             </div>
         </header>
@@ -55,7 +60,7 @@
                 {{-- Main Heading --}}
                 <h1 class="font-['Poppins',sans-serif] mb-8">
                     <span class="block text-[56px] lg:text-[72px] font-semibold leading-[1.1] text-white tracking-tight mb-3">
-                        Welcome to AmaanText.ai
+                        Welcome to Tasctranslate.ai
                     </span>
                     <span class="block text-[56px] lg:text-[72px] font-semibold leading-[1.1] tracking-tight min-h-[1.1em]">
                         <span id="type-animation" class="text-[#ffe102]"></span>
@@ -64,7 +69,7 @@
                 
                 {{-- Subheading --}}
                 <p class="text-[20px] lg:text-[22px] text-white/80 leading-relaxed mb-12 max-w-4xl mx-auto font-['Gotham',sans-serif] font-light">
-                    Delivers speed, compliance, and legal-grade accuracy required for today's enterprise.
+                    Translate over 100-page PPT, DOCX, or PDF in one click with enterprise-grade translation and perfect formatting.
                 </p>
                 
                 {{-- CTA Buttons --}}
@@ -133,7 +138,7 @@
         
         <div class="container mx-auto max-w-5xl relative z-10 text-center">
             <h2 class="text-[46px] font-bold text-white mb-6 font-['Poppins',sans-serif] leading-tight">
-                See How AmaanText AI Delivers<br />
+                See How Tasctranslate.ai Delivers<br />
                 <span class="text-[#ffe102]">Enterprise-Grade Translation Control</span>
             </h2>
             <p class="text-[20px] text-white/90 mb-10 max-w-3xl mx-auto font-['Poppins',sans-serif]">
@@ -194,25 +199,37 @@
     {{-- Footer --}}
     <footer class="py-16 px-8 lg:px-16 bg-[#003d54]">
         <div class="container mx-auto max-w-6xl">
-            <div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-10">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 mb-10">
                 <div class="h-10 w-28">
-                    <img alt="AmaanText AI Logo" class="h-full w-full object-contain opacity-70" src="{{ asset('images/a2ec735a587b0c6790f0022759483bc195d10feb.png') }}" />
+                    <img alt="Tasctranslate.ai Logo" class="h-full w-full object-contain opacity-70" src="{{ asset('images/tasctranslate-logo.png') }}" />
                 </div>
                 
-                <div class="flex gap-10 text-[14px] text-white/50 font-['Poppins',sans-serif]">
-                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
-                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
-                    <a href="#" class="hover:text-white transition-colors">Contact</a>
+                <div class="text-center md:text-right text-[14px] text-white/50 font-['Poppins',sans-serif]">
+                    <div class="flex gap-10 justify-center md:justify-end">
+                        <a href="{{ route('terms-of-service') }}" class="hover:text-white transition-colors">Terms of Service</a>
+                        <a href="#" class="hover:text-white transition-colors">Contact</a>
+                    </div>
+                    <address class="not-italic mt-4 leading-relaxed">
+                        2403, Nassima Tower, Sheikh Zayed Road, Dubai,<br />
+                        UAE, P.O. Box: 117495<br />
+                        <a href="tel:+97143588500" class="hover:text-white transition-colors">+971 4 358 8500</a><br />
+                        <br />
+                        Riyadh<br />
+                        Top Talent Consulting Ltd., Building 1, Office No. 4,<br />
+                        1st Floor Salahuddin Al Ayoubi Street, King Abdulaziz Dist.<br />
+                        Riyadh, Saudi Arabia, P.O. Box: 11452<br />
+                        <a href="tel:+966112166218" class="hover:text-white transition-colors">+966 11 216 6218</a><br />
+                        <a href="mailto:info@tascoutsourcing.com" class="hover:text-white transition-colors">info@tascoutsourcing.com</a>
+                    </address>
                 </div>
             </div>
             
             <div class="pt-8 border-t border-white/10 text-center">
                 <p class="text-[13px] text-white/40 font-['Poppins',sans-serif]">
-                    © 2026 AmaanText AI. Enterprise AI Translation Software for Arabic & English Documents in the GCC.
+                    © 2026 Tasctranslate.ai. Enterprise AI Translation Software for Arabic & English Documents in the GCC.
                 </p>
             </div>
         </div>
     </footer>
 </div>
 @endsection
-

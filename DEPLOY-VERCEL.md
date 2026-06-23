@@ -7,7 +7,7 @@
 1. **Go to [Vercel Dashboard](https://vercel.com/dashboard)**
 2. **Click "Add New Project"**
 3. **Import your GitHub repository:**
-   - Select `tasc-outsourcing/amaantext-landingpage`
+   - Select `tasc-outsourcing/tasc-translate-landingpage`
    - Click "Import"
 
 4. **Configure Project Settings:**

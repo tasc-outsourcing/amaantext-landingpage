@@ -11,7 +11,7 @@
                 <span class="text-[#ffe102]">Transform in Real-Time</span>
             </h2>
             <p class="text-[20px] text-white/80 max-w-2xl mx-auto font-['Poppins',sans-serif]">
-                Click through each step to see how AmaanText AI translates enterprise documents
+                Click through each step to see how Tasctranslate.ai translates enterprise documents
             </p>
         </div>
         
@@ -260,7 +260,7 @@
                 {{-- CTA Button --}}
                 <div class="pt-6">
                     <button class="w-full bg-gradient-to-r from-[#ffe102] to-[#ffd700] text-[#005f83] px-8 py-5 rounded-[20px] text-[18px] font-bold hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex items-center justify-center gap-3">
-                        <span>Try AmaanText AI Free</span>
+                        <span>Try Tasctranslate.ai Free</span>
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                         </svg>

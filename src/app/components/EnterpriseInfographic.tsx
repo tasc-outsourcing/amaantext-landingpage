@@ -148,7 +148,7 @@ export function EnterpriseInfographic() {
 
               {/* Text */}
               <div className="text-[#ffe102] font-bold text-[16px] uppercase tracking-widest mb-2 [writing-mode:vertical-lr] lg:[writing-mode:horizontal-tb] rotate-180 lg:rotate-0">
-                AmaanText AI
+                Tasctranslate.ai
               </div>
               <div className="text-white/80 text-[12px] font-semibold [writing-mode:vertical-lr] lg:[writing-mode:horizontal-tb] rotate-180 lg:rotate-0 whitespace-nowrap">
                 Enterprise Control Layer

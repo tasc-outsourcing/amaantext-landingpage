@@ -46,7 +46,7 @@ export function HowItWorksSection() {
             <span className="text-[#ffe102]">Transform in Real-Time</span>
           </h2>
           <p className="text-[20px] text-white/80 max-w-2xl mx-auto font-['Poppins',sans-serif]">
-            Click through each step to see how AmaanText AI translates enterprise documents
+            Click through each step to see how Tasctranslate.ai translates enterprise documents
           </p>
         </div>
         
@@ -339,7 +339,7 @@ export function HowItWorksSection() {
             {/* CTA Button */}
             <div className="pt-6">
               <button className="w-full bg-gradient-to-r from-[#ffe102] to-[#ffd700] text-[#005f83] px-8 py-5 rounded-[20px] text-[18px] font-bold hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex items-center justify-center gap-3">
-                <span>Try AmaanText AI Free</span>
+                <span>Try Tasctranslate.ai Free</span>
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>

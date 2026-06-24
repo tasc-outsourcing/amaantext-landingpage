@@ -11,7 +11,7 @@
     "@tailwindcss/vite": "^4.1.12",
     "@vitejs/plugin-react": "^5.0.0",
     "autoprefixer": "^10.4.14",
-    "axios": "^1.6.0",
+    "axios": "^1.18.1",
     "laravel-vite-plugin": "^1.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^4.1.12",
@@ -21,6 +21,7 @@
   "dependencies": {
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
+    "react-select": "^5.10.2",
     "react-type-animation": "^3.2.0"
   }
 }

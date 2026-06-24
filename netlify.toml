@@ -1,15 +1,10 @@
 [build]
-  command = "bash netlify-build.sh"
-  publish = "public"
-
-[build.environment]
-  PHP_VERSION = "8.2"
-  NODE_VERSION = "18"
-  COMPOSER_HOME = "/opt/buildhome/.composer"
+  command = "npm install && npm run build"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
-  to = "/index.php"
+  to = "/index.html"
   status = 200
 
 [[headers]]
@@ -20,11 +15,6 @@
     X-Content-Type-Options = "nosniff"
 
 [[headers]]
-  for = "/build/*"
+  for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/images/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"

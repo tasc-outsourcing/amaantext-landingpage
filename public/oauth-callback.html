@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><title>Authenticating…</title></head>
+<body>
+<p style="font-family:sans-serif;text-align:center;margin-top:80px;color:#667085">Authenticating, please wait…</p>
+<script>
+  (function () {
+    var hash = window.location.hash.substring(1);
+    var params = {};
+    hash.split('&').forEach(function (part) {
+      var kv = part.split('=');
+      if (kv[0]) params[decodeURIComponent(kv[0])] = decodeURIComponent(kv[1] || '');
+    });
+
+    var msg = { type: 'oauth-callback', params: params };
+    if (params.error) {
+      msg.error = params.error;
+      msg.error_description = params.error_description || params.error;
+    }
+
+    // BroadcastChannel — works when both tabs are same origin
+    try {
+      var bc = new BroadcastChannel('oauth-callback');
+      bc.postMessage(msg);
+      bc.close();
+    } catch (e) {}
+
+    // postMessage fallback to opener
+    try {
+      if (window.opener) {
+        window.opener.postMessage(msg, window.location.origin);
+      }
+    } catch (e) {}
+
+    setTimeout(function () { window.close(); }, 500);
+  })();
+</script>
+</body>
+</html>

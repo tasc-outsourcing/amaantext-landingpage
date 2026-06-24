@@ -2,6 +2,6 @@
   "version": 2,
   "buildCommand": "echo Static site deploy",
   "installCommand": "echo Skip install",
-  "outputDirectory": ".",
+  "outputDirectory": "dist",
   "cleanUrls": true
 }
